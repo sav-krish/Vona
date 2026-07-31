@@ -1,36 +1,33 @@
 # Publishing Notes
 
-## Recommended GitHub Repo Settings
+## Recommended Repo Metadata
 
-- Repo name: `vona`
+- Name: `Vona`
 - Visibility: `Public`
-- Repo description: `Voice-first AI desktop assistant for real-time transcription and writing help.`
-- Website: leave blank unless you have a landing page
+- Description: `Voice-first AI desktop assistant for real-time transcription and writing help.`
+- Topics: `ai`, `desktop-app`, `speech-to-text`, `transcription`, `voice-assistant`, `productivity`
 
-## What To Upload
+## Recommended Live Repo Cleanup
 
-- Source code
-- `README.md`
-- `LICENSE`
-- Any safe architecture notes
+- Remove `Vona.dmg` from the repository root
+- Publish the `.dmg` through GitHub Releases instead
+- Keep the repo focused on documentation, source, and release notes
+- Add a short repo description in GitHub settings
+- Pin the repository on the GitHub profile
 
-## What Not To Commit
+## What Should Stay Out Of Git
 
 - API keys
-- Local test data
-- Personal logs
+- Local configuration
+- Private logs
 - Raw recordings
-- The `.dmg` file
+- Signed build artifacts in normal commits
 
-## Release Strategy
-
-Attach `/Users/krishsav/Downloads/Vona.dmg` to a GitHub Release after the repo is created.
-
-Suggested first release:
+## First Release
 
 - Tag: `v1.0.0`
 - Title: `Vona for macOS`
 
-Suggested release text:
+Release text:
 
-`Initial public release of Vona, a voice-first AI desktop assistant for real-time transcription and writing help.`
+`First public release of Vona, a voice-first AI desktop assistant for real-time transcription and writing help.`

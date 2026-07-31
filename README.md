@@ -1,81 +1,60 @@
 # Vona
 
-Voice-first AI desktop assistant for fast transcription, rewriting, and context-aware help.
+Voice-first AI desktop assistant for real-time transcription and writing help.
 
-## What It Does
+## Overview
 
-Vona turns speech into useful writing in real time. It captures spoken input, transcribes it with low latency, understands intent, and generates polished output inside a local desktop workflow.
+Vona turns spoken input into clean, useful text inside a desktop workflow. It is built for fast transcription, rewriting, and context-aware assistance without interrupting the flow of work.
 
-Core use cases:
+The goal is simple: make your voice the fastest way to produce something worth sending.
 
-- Real-time voice transcription
-- Rewriting rough speech into clean messages
-- Context-aware drafting based on active desktop content
-- Fast help for writing and problem solving
+## What Vona Does
+
+- Transcribes speech in real time
+- Rewrites rough speech into clearer writing
+- Interprets spoken intent before generating output
+- Supports desktop productivity with a local-first approach
 
 ## Why I Built It
 
-I wanted a voice tool that felt immediate, private, and practical. Vona was built to make speaking the fastest way to produce useful work.
+Most voice tools stop at dictation. Vona was built to go further by taking raw speech and shaping it into polished output that feels usable immediately.
 
-## Features
+## Product Principles
 
-- Real-time transcription pipeline
-- Voice command parsing
-- Writing generation for messages and short-form text
-- Desktop-first workflow
-- Local-first privacy model
+- Fast enough to stay in the flow
+- Practical enough for everyday work
+- Private enough to feel comfortable on a personal machine
 
-## Tech Stack
-
-- **App:** Replace with your desktop framework
-- **Language:** Replace with your main language
-- **Speech-to-text:** Replace with your transcription engine
-- **OCR / context layer:** Replace if used
-- **LLM backend:** Replace with your model provider
-
-## How It Works
+## System Flow
 
 ```text
-Microphone -> Speech-to-Text -> Intent Parsing -> Context Assembly -> LLM Output -> Desktop Response
+Microphone -> Speech-to-Text -> Intent Parsing -> Context Assembly -> Response Generation -> Final Output
 ```
 
-If you want a fuller visual, add a diagram at `docs/architecture.md` or `docs/architecture.png`.
+Additional notes are in [docs/architecture.md](docs/architecture.md).
 
 ## Installation
 
-### Option 1
+### macOS
 
-Download the latest `.dmg` from the GitHub Releases page and open the app.
-
-### Option 2
-
-Run from source after you add the real setup steps below.
-
-```bash
-git clone https://github.com/sav-krish/vona.git
-cd vona
-# add your real install command here
-# add your real launch command here
-```
+Download the latest `.dmg` from the Releases page and open the installer.
 
 ## Usage
 
-Launch Vona, speak naturally, and let it turn raw speech into usable text. If your app supports hotkeys, push-to-talk, or on-screen actions, document them here before publishing.
+Open Vona, start speaking, and let it turn voice input into usable text. The app is designed for low-friction transcription and writing support inside an active desktop session.
 
-Note: the live overlay is intentionally not shown in captures, so this repo uses product copy and release assets instead of in-app screenshots.
+The live interface is intentionally not visible in screenshots or recordings, so this repository focuses on product details rather than capture-based demos.
 
-## Repo Notes
+## Repository Scope
 
-- Put the installable app in GitHub Releases, not in the repository itself
-- Keep API keys, local configs, and private data out of version control
-- Replace placeholder stack details before publishing
+This public repository is the release and documentation home for Vona. It is intended to show the product direction, installation path, and core workflow in a clean format.
 
 ## Roadmap
 
 - Improve transcription quality in noisy environments
 - Expand desktop integrations
-- Add stronger personalization for rewrite style
+- Refine output control for different writing styles
 
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
